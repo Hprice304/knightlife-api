@@ -146,7 +146,9 @@ module.exports.routeGetEventByTeamID = (req, res, next) => {
 };
 
 function getEventByTeamID(calendarId) {
+	console.log('getEventBy')
 	return new Promise((resolve, reject) => {
+		console.log('findone')
 		Team.findOne({
 			calendarId: calendarId
 		}).then(resolve).catch(reject);
