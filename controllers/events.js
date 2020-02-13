@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const Event = mongoose.model('Event');
-const Team = mongoose.model('SportsGameEvent')
+const Team = mongoose.model('SportsTeam')
 
 const removeKey = require('key-del');
 const DetailedError = require('../util/detailedError');
@@ -126,7 +126,7 @@ module.exports.routeGetEventByBadge = (req, res, next) => {
 };
 
 module.exports.routeGetEventByTeamID = (req, res, next) => {
-	const teamId = req.param('teamId')
+	const teamId = req.param('calendarId')
 
 	getEventByTeamID(teamId).then(doc => {
 		if (doc) {
@@ -141,10 +141,10 @@ module.exports.routeGetEventByTeamID = (req, res, next) => {
 	}).catch(next);
 };
 
-function getEventByTeamID(teamId) {
+function getEventByTeamID(calendarId) {
 	return new Promise((resolve, reject) => {
 		Team.findOne({
-			teamId: teamId
+			calendarId: calendarId
 		}).then(resolve).catch(reject);
 	});
 }
