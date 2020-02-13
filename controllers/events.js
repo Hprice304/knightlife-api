@@ -127,7 +127,9 @@ module.exports.routeGetEventByBadge = (req, res, next) => {
 
 module.exports.routeGetEventByTeamID = (req, res, next) => {
 	const teamId = req.param('calendarId')
-	console.log(`gettingteam id, ${ teamId }`)
+
+	console.log(`https://www.bbns.org/calendar/team_${ teamId }.ics`)
+	
 	getEventByTeamID(teamId).then(doc => {
 		if (doc) {
 			let eventsObject = doc.toObject();
