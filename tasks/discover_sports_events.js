@@ -7,7 +7,7 @@ require('../models/modeller').init();
 
 async function fetchUpdates() {
 	const Team = mongoose.model('SportsTeam');
-
+	console.log('Fetching Updates')
 	const teams = await Team.find({});
 
 	for (const team of teams) {
@@ -33,6 +33,8 @@ async function fetchUpdates() {
 function teamUrl(teamId) {
 	return `https://www.bbns.org/calendar/team_${ teamId }.ics`;
 }
+
+// https://www.bbns.org/calendar/team_192.ics
 
 async function handleICS(team, ics) {
 	const Event = mongoose.model('Event');
