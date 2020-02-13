@@ -137,7 +137,7 @@ module.exports.routeGetEventByTeamID = (req, res, next) => {
 			return;
 		}
 
-		resolve(eventsObject)
+		next(new DetailedError(400, 'error_invalid_calendarID', 'Bad Cal'));
 	}).catch(next);
 };
 
