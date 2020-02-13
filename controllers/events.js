@@ -135,6 +135,8 @@ module.exports.routeGetEventByTeamID = (req, res, next) => {
 			let eventsObject = doc.toObject();
 			removeKey(eventsObject, ['__v', '_id', 'calendarRaw', '__t', 'hidden'], { copy: false});
 
+			console.log('test')
+
 			res.json(eventsObject);
 			return;
 		}

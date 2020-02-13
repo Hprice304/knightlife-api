@@ -7,7 +7,9 @@ require('../models/modeller').init();
 
 async function fetchUpdates() {
 	const Team = mongoose.model('SportsTeam');
+
 	console.log('Fetching Updates')
+	
 	const teams = await Team.find({});
 
 	for (const team of teams) {
