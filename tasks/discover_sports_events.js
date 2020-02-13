@@ -9,7 +9,7 @@ async function fetchUpdates() {
 	const Team = mongoose.model('SportsTeam');
 
 	console.log('Fetching Updates')
-	
+
 	const teams = await Team.find({});
 
 	for (const team of teams) {
@@ -39,7 +39,7 @@ function teamUrl(teamId) {
 // https://www.bbns.org/calendar/team_192.ics
 
 async function handleICS(team, ics) {
-	const Event = mongoose.model('Event');
+	const Event = mongoose.model('SportsTeam');
 
 	if (ics['VCALENDAR'] === undefined || ics['VCALENDAR'][0]['VEVENT'] === undefined) {
 		console.log(`Found no events for team ${ team.calendarId }`);
