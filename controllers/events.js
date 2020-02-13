@@ -129,7 +129,7 @@ module.exports.routeGetEventByTeamID = (req, res, next) => {
 	const teamId = req.param('calendarId')
 
 	console.log(`https://www.bbns.org/calendar/team_${ teamId }.ics`)
-	
+
 	getEventByTeamID(teamId).then(doc => {
 		if (doc) {
 			let eventsObject = doc.toObject();
@@ -139,7 +139,7 @@ module.exports.routeGetEventByTeamID = (req, res, next) => {
 			return;
 		}
 
-		next(new DetailedError(400, 'error_invalid_calendarID', 'Bad Cal'));
+		// next(new DetailedError(400, 'error_invalid_calendarID', 'Bad Cal'));
 	}).catch(next);
 };
 
