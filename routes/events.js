@@ -9,6 +9,5 @@ module.exports.registerRoutes = (router) => {
 	router.get('/m/events', [ query.parseCategories, query.parseFilters ], controller.routeGetEvents);
 	router.get('/m/events/:year/:month/:day', [ parseDate, query.parseCategories, query.parseFilters ], controller.routeGetEventsForDate);
 	router.get('/m/events/:badge', controller.routeGetEventByBadge);
-	router.get('/m/events/teams/:teamId', controller.routeGetEventByTeamID);
-
+	router.get('/m/events/teams/:calendarId', controller.routeGetEventByTeamID);
 };
