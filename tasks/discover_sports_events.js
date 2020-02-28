@@ -16,7 +16,8 @@ async function fetchUpdates() {
 		try {
 			const id = team.calendarId;
 
-			const url = teamUrl(id);
+			// const url = teamUrl(id);
+			const url = 'https://www.bbns.org/calendar/team_192.ics'
 
 			const raw = await download(url);
 			const ics = await ical.parseToJSON(raw);
