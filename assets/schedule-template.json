@@ -20,13 +20,6 @@
 		"mo": {
 			"blocks": [
 				{
-					"id": "assembly",
-					"time": {
-						"start": "08-00",
-						"end": "08-15"
-					}
-				},
-				{
 					"id": "d",
 					"time": {
 						"start": "08-20",
@@ -111,13 +104,6 @@
 		},
 		"tu": {
 			"blocks": [
-				{
-					"id": "advisory",
-					"time": {
-						"start": "08-00",
-						"end": "08-15"
-					}
-				},
 				{
 					"id": "e",
 					"time": {
@@ -210,13 +196,6 @@
 		},
 		"we": {
 			"blocks": [
-				{
-					"id": "class_meeting",
-					"time": {
-						"start": "08-00",
-						"end": "08-15"
-					}
-				},
 				{
 					"id": "g",
 					"time": {
@@ -380,13 +359,6 @@
 		},
 		"fr": {
 			"blocks": [
-				{
-					"id": "advisory",
-					"time": {
-						"start": "08-00",
-						"end": "08-15"
-					}
-				},
 				{
 					"id": "c",
 					"time": {
