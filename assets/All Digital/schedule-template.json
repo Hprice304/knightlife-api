@@ -1,0 +1,290 @@
+{
+	"blockIds": [
+		"a",
+		"b",
+		"c",
+		"d",
+		"e",
+		"f",
+		"g",
+		"x",
+		"block1",
+		"block2",
+		"block3",
+		"block4",
+		"lunch",
+		"activities",
+		"lab",
+		"class_meeting",
+		"assembly",
+		"advisory",
+		"custom"
+	],
+	"days": {
+		"mo": {
+			"blocks": [
+				{
+					"id": "b",
+					"time": {
+						"start": "08-20",
+						"end": "09-05"
+					}
+				},
+				{
+					"id": "a",
+					"time": {
+						"start": "09-15",
+						"end": "10-15"
+					}
+				},
+				{
+					"id": "custom",
+					"time": {
+						"start": "10-15",
+						"end": "10-45"
+					}
+				},
+				{
+					"id": "c",
+					"time": {
+						"start": "10-45",
+						"end": "11-30"
+					}
+				},
+				{
+					"id": "e",
+					"time": {
+						"start": "11-40",
+						"end": "12-25"
+					}
+				},
+				{
+					"id": "lunch",
+					"time": {
+						"start": "12-30",
+						"end": "13-30"
+					}
+				},
+				{
+					"id": "custom",
+					"time": {
+						"start": "13-30",
+						"end": "15-00"
+					}
+				}
+			]
+		},
+		"tu": {
+			"blocks": [
+				{
+					"id": "e",
+					"time": {
+						"start": "08-20",
+						"end": "09-05"
+					}
+				},
+				{
+					"id": "b",
+					"time": {
+						"start": "09-15",
+						"end": "10-15"
+					}
+				},
+				{
+					"id": "custom",
+					"time": {
+						"start": "10-15",
+						"end": "10-45"
+					}
+				},
+				{
+					"id": "a",
+					"time": {
+						"start": "10-45",
+						"end": "11-30"
+					}
+				},
+				{
+					"id": "g",
+					"time": {
+						"start": "11-40",
+						"end": "12-25"
+					}
+				},
+				{
+					"id": "lunch",
+					"time": {
+						"start": "12-30",
+						"end": "13-30"
+					}
+				},
+				{
+					"id": "f",
+					"time": {
+						"start": "13-30",
+						"end": "14-30"
+					}
+				}
+			]
+		},
+		"we": {
+			"blocks": [
+				{
+					"id": "d",
+					"time": {
+						"start": "08-20",
+						"end": "09-05"
+					}
+				},
+				{
+					"id": "c",
+					"time": {
+						"start": "09-15",
+						"end": "10-15"
+					}
+				},
+				{
+					"id": "custom",
+					"time": {
+						"start": "10-15",
+						"end": "10-45"
+					}
+				},
+				{
+					"id": "f",
+					"time": {
+						"start": "10-45",
+						"end": "11-30"
+					}
+				},
+				{
+					"id": "advisory",
+					"time": {
+						"start": "11-40",
+						"end": "12-10"
+					}
+				},
+				{
+					"id": "lunch",
+					"time": {
+						"start": "12-30",
+						"end": "13-30"
+					}
+				},
+				{
+					"id": "custom",
+					"time": {
+						"start": "13-30",
+						"end": "15-00"
+					}
+				}
+			]
+		},
+		"th": {
+			"blocks": [
+				{
+					"id": "a",
+					"time": {
+						"start": "08-20",
+						"end": "09-05"
+					}
+				},
+				{
+					"id": "d",
+					"time": {
+						"start": "09-15",
+						"end": "10-15"
+					}
+				},
+				{
+					"id": "custom",
+					"time": {
+						"start": "10-15",
+						"end": "10-45"
+					}
+				},
+				{
+					"id": "c",
+					"time": {
+						"start": "10-45",
+						"end": "11-30"
+					}
+				},
+				{
+					"id": "b",
+					"time": {
+						"start": "11-40",
+						"end": "12-25"
+					}
+				},
+				{
+					"id": "lunch",
+					"time": {
+						"start": "12-30",
+						"end": "13-30"
+					}
+				},
+				{
+					"id": "g",
+					"time": {
+						"start": "13-40",
+						"end": "14-30"
+					}
+				}
+			]
+		},
+		"fr": {
+			"blocks": [
+				{
+					"id": "f",
+					"time": {
+						"start": "08-20",
+						"end": "09-05"
+					}
+				},
+				{
+					"id": "e",
+					"time": {
+						"start": "09-15",
+						"end": "10-15"
+					}
+				},
+				{
+					"id": "custom",
+					"time": {
+						"start": "10-15",
+						"end": "10-45"
+					}
+				},
+				{
+					"id": "g",
+					"time": {
+						"start": "10-45",
+						"end": "11-30"
+					}
+				},
+				{
+					"id": "d",
+					"time": {
+						"start": "11-40",
+						"end": "12-25"
+					}
+				},
+				{
+					"id": "lunch",
+					"time": {
+						"start": "12-30",
+						"end": "13-30"
+					}
+				},
+				{
+					"id": "custom",
+					"time": {
+						"start": "13-30",
+						"end": "15-00"
+					}
+				}
+			]
+		}
+	}
+}
