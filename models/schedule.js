@@ -121,6 +121,10 @@ const Timetable = new mongoose.Schema({
 		type: String,
 		default: uuid
 	},
+	inperson: {
+		type: String,
+		required: true
+	},
 	blocks: {
 		type: [Block]
 	},
