@@ -22,6 +22,7 @@
 	],
 	"days": {
 		"mo": {
+			"inperson": 1,
 			"blocks": [
 				{
 					"id": "g",
@@ -82,6 +83,7 @@
 			]
 		},
 		"tu": {
+			"inperson": 1,
 			"blocks": [
 				{
 					"id": "d",
@@ -142,6 +144,7 @@
 			]
 		},
 		"we": {
+			"inperson": 3,
 			"blocks": [
 				{
 					"id": "block1",
@@ -174,6 +177,7 @@
 			]
 		},
 		"th": {
+			"inperson": 2,
 			"blocks": [
 				{
 					"id": "b",
@@ -234,6 +238,7 @@
 			]
 		},
 		"fr": {
+			"inperson" : 2,
 			"blocks": [
 				{
 					"id": "f",
