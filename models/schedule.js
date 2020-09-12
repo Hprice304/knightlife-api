@@ -123,7 +123,8 @@ const Timetable = new mongoose.Schema({
 	},
 	inperson: {
 		type: String,
-		required: true
+		required: true,
+		default: []
 	},
 	blocks: {
 		type: [Block]
