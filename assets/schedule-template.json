@@ -144,9 +144,16 @@
 		"we": {
 			"blocks": [
 				{
-					"id": "block1",
+					"id": "class_meeting",
 					"time": {
 						"start": "08-20",
+						"end": "09-00"
+					}
+				},
+				{
+					"id": "advisory",
+					"time": {
+						"start": "09-00",
 						"end": "09-20"
 					}
 				},
